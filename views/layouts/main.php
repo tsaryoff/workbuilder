@@ -111,7 +111,7 @@ AppAsset::register($this);
                         <div class="thumbnail">
                             <div class="caption">
 
-                                <p>...</p>
+                                <p> </p>
                             </div>
                         </div>
                     </div>
