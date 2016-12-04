@@ -1,0 +1,133 @@
+
+.navbar-default {
+	background: transparent;
+	border-radius: 0;
+}
+
+.navbar-default.first {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.navbar-default .navbar-brand {
+	font-size: 45px;
+    color: #fff;
+    margin: 14px;
+    padding: 16px 0 0 3px;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  font-size: 45px;
+  color: #fff;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #000;
+	 margin: 14px;
+}
+
+.btn.btn-default.in {
+	letter-spacing: 1px;
+	border: 1px solid #fff;
+	padding: 6px 13px 6px 13px;
+	margin: 22px 0 0 13px;
+	background: transparent;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.btn.btn-default.reg {
+	letter-spacing: 1px;
+	padding: 7px 13px 7px 13px;
+	margin: 22px 0 0 13px;
+	border: transparent;
+	background: transparent;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.btn.btn-default.reg:hover,.btn.btn-default.reg:focus {
+	border: none;
+	background: #72c02c;
+	color: #fff;
+}
+
+.btn.btn-default.in:hover,.btn.btn-default.in:focus {
+	background: #fff;
+	letter-spacing: 1px;
+	border: 1px solid #fff;
+	color: #286090;
+	text-transform: uppercase;
+}
+
+.btn.btn-default.vac {
+	background: transparent;
+	border: none;
+	letter-spacing: 1px;
+	padding: 7px 13px 7px 13px;
+	margin: 22px 0 0 13px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.btn.btn-default.vac:hover,.btn.btn-default.vac:focus {
+	background: #2c72af;
+	letter-spacing: 1px;
+	padding: 7px 13px 7px 13px;
+	margin: 22px 0 0 13px;
+	color: #fff;
+}
+
+.navbar-default.last {
+	border: none;
+}
+
+.navbar.navbar-default.last .collapse.navbar-collapse {
+	padding: 0;
+}
+.navbar-default.last .navbar-nav > li > a {
+	font-size: 15px;
+	padding-bottom: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	display: table-header-group;
+}
+
+.navbar-default.last .navbar-nav > li{
+	margin: 6px 26px 0 0;
+}
+
+.navbar-default.last .navbar-nav > li:hover{
+	border-bottom: 2px solid #fff;
+}
+
+.wraper {
+	z-index: 1;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	background-size: cover;
+	background: url('../images/header_bg.jpg') no-repeat center center;
+}
+
+.mask {
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	background: rgba(1, 5, 16, 0.64);
+}
+.thumbnail {
+	border: none;
+	background: rgba(188, 190, 193, 0.38);
+}
+.thumbnail .caption {
+	color: #fff;
+}
+
+.caption h4,.caption p {
+	text-align: center;
+	text-transform: uppercase;
+}
